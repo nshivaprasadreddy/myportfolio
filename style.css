@@ -1,0 +1,80 @@
+ nav ul li a .fa {
+       font-size: 1.3rem;
+       }
+       .profile-image {
+       max-width: 240px;
+       }
+
+       @media only screen and (max-width: 768px) {
+        .name {
+            font-size: 40px;
+        }
+        }
+
+        @media only screen and (max-width: 320px) {
+        .name {
+            font-size: 30px;
+        }
+        }
+
+        img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.skills-icon-holder {
+    background: #41A4F5;
+    width: 80px;
+    height: 80px;
+    padding-top: 1.25rem;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+}
+.text-center {
+    text-align: center !important;
+}
+.position-absolute {
+    position: absolute !important;
+}
+.d-inline-block {
+    display: inline-block !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.section-intro {
+    max-width: 780px;
+    overflow: hidden;
+}
+.profile-small {
+    width: 80px;
+    height: 80px;
+}
+.filters .type.active {
+    background: #41A4F5;
+    color: #fff;
+}
+.filters .type {
+    display: inline-block;
+    padding: 0.275rem 0.875rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.footer {
+    background: #434E5E;
+}
+.text-light {
+    color: #f5f6f8 !important;
+}
+.navcolor{
+    background-color: #006acd !important;
+}
